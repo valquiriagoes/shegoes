@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This the app I'm supposed to create on GitHub. Good luck. 
 
 Things you may want to cover:
 
