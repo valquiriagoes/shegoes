@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Nameofapp</title>
+    <title>Keeks Berlin</title>
     <%= csrf_meta_tags %>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
   	<nav>
-  		<ul>
-  			<li>Home</li>
-  			<li>About</li>
-  			<li>Contact</li>
+  		<ul class="nav nav-tabs">
+  			<li role="presentation" class="active">Home</li>
+  			<li role="presentation">About</li>
+  			<li role="presentation">Contact</li>
   		</ul>
   	</nav>
 
     <%= yield %>
 
     <footer>
-    	&copy; 2017 Bike Berlin
+    	&copy; 2017 Keeks Berlin
     </footer>
   </body>
   
